@@ -217,6 +217,11 @@ footer a {
     font-weight: bold;
 }
 
+footer a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
 footer a::after {
     content: none;
 }
